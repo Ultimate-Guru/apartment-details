@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartment-1 Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url(./assets/img/slide-3.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+
+        .property-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 400px;
+            margin: 5% auto;
+        }
+
+        .property-image img {
+            width: 100%;
+            height: 43vh;
+            display: block;
+        }
+
+        .property-details {
+            padding: 20px;
+        }
+
+        .property-header {
+            margin-bottom: 15px;
+        }
+
+        .property-type {
+            font-size: 12px;
+            color: #6c757d;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .property-name {
+            font-size: 1.6rem;
+            font-weight: bolder;
+            margin-left: 25%;
+            margin-top: 5px;
+            padding: 5px;
+            color: #333;
+        }
+
+        .property-address {
+            font-size: 14px;
+            color: #6c757d;
+            margin: 5px 0;
+        }
+
+        .property-icons {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            /* Creates two equal columns */
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .property-icons div {
+            font-size: 12px;
+            color: #495057;
+            display: flex;
+            align-items: center;
+        }
+
+        .property-icons div i {
+            margin-right: 5px;
+        }
+
+        .building-details {
+            padding: 20px;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .details-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .details-header h3 {
+            margin: 0;
+            font-size: 16px;
+            color: #343a40;
+        }
+
+        .details-header a {
+            font-size: 14px;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .details-header a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            font-size: 14px;
+            color: #495057;
+            margin-bottom: 10px;
+        }
+
+        .detail-value {
+            float: right;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="property-card">
+        <div class="property-image">
+            <img src="./assets/img/slide-3.jpg" alt="Property Image">
+        </div>
+        <div class="property-details">
+            <div class="property-header">
+                <h2 class="property-name">Apartment 1</h2>
+            </div>
+            <div class="property-icons">
+                <div><i class="fa-solid fa-ruler"></i>950 sqft</div>
+                <div><i class="fa-solid fa-bed"></i>2 Bedrooms</div>
+                <div><i class="fa-solid fa-bath"></i>2 Bathroom</div>
+                <div><i class="fa-solid fa-utensils"></i>1 Kitchen</div>
+                <div><i class="fa-solid fa-wifi"></i>Internet Ready</div>
+                <div><i class="fa-solid fa-fan"></i>Air Condition</div>
+
+                <div><i class="fa-solid fa-couch"></i>Is Furnished</div>
+                <div><i class="fa-solid fa-house"></i>Last Renovated</div>
+                <div><i class="fa-solid fa-door-open"></i>Balcony</div>
+                <div><i class="fa-solid fa-water"></i>Water Supply</div>
+                <div><i class="fas fa-bolt"></i>Electricity Supply</div>
+                <div><i class="fas fa-fire"></i>Heating System (Gas)</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
